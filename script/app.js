@@ -1,11 +1,11 @@
 const gen__btn = document.querySelector("#gen__btn");
 const gen__solution = document.querySelector("#gen__solution");
 
-let firstLetterMale = ["анхитбл", "понос", "курсед", "сифилизный", "антипопадаки", "кислота", "скитовый", "неверлуз", "агрессивный", "катастрофический", "пердящий", "пенящий", "сдержанный", "красный", "модный", "ответственный", "экономический", "фармацевтический", "спинной", "космический", "тайный", "качественный", "властный", "лошадиный", "иностранный", "молниеносный", "воздушный", "жгучий", "крутой", "силиконовый", "скрытый"];
-let firstLetterFemale = ["рукоблядскийкомар", "говноочко", "шалашовка", "зиктор", "бодрая", "дрейн", "мамашу чек", "опасная", "улётная", "индукционная", "шоколадный"];
-let secondLetterMale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "ананас", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
-let secondLetterFemale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "ананас", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
-let uniqueNames = ["сын говна.yaw", "мамкуебал.yaw", "выпрыгни.yaw", "печень соуфифа", "сломанные позвонки.nl", "ипотекa cord", "фортуна.yaw"];
+let firstLetterMale = ["анхитбл", "понос", "курсед", "сифилизный", "антипопадаки", "кислота", "скитовый", "неверлуз", "агрессивный", "катастрофический", "пердящий", "пенящий", "сдержанный", "красный", "модный", "ответственный", "экономический", "фармацевтический", "спинной", "космический", "тайный", "качественный", "властный", "лошадиный", "иностранный", "молниеносный", "воздушный", "жгучий", "крутой", "силиконовый", "скрытый","Алгебра","Озеро Титикака","Виктор","АсидТеч","Параша","ZXC","Англо-русский словарь","Dictionary","Pencil","Pudge","бетовая бета","Сру в рот","брейн дед","черный","негр","андрей тарков","Зиктор ультра"];
+let firstLetterFemale = ["рукоблядскийкомар", "говноочко", "шалашовка", "зиктор", "бодрая", "дрейн", "мамашу чек", "опасная", "улётная", "индукционная", "шоколадный","Пуку-кака","Многочлен","без скитовый","1х1 луз","анти-аим билдер","Дефолт","ну проебал ичо","ну без скита ичо","неверлуз маркет","бумер","сын","Кислотап","бодибилдер кислый","Зига"];
+let secondLetterMale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "асидтеч", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
+let secondLetterFemale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "асидтеч", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
+let uniqueNames = ["сын говна.yaw", "мамкуебал.yaw", "доширак", "печень соуфифа", "сломанные позвонки.nl", "ипотекa cord", "соуфиф пупс анти аим"];
 
 let allItemsLenght = firstLetterMale.length + firstLetterFemale.length + uniqueNames.length;
 let maleChance = Math.floor(firstLetterMale.length / allItemsLenght * 100);
@@ -28,5 +28,3 @@ gen__btn.addEventListener("click", function() {
     gen__solution.classList.remove("invis");
     gen__solution.textContent = "Ваш корднейм: " + answer;
 });
-
-
