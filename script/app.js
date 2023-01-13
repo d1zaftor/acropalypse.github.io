@@ -5,7 +5,7 @@ let firstLetterMale = ["анхитбл", "понос", "курсед", "сифи
 let firstLetterFemale = ["рукоблядскийкомар", "говноочко", "шалашовка", "зиктор", "бодрая", "дрейн", "мамашу чек", "опасная", "улётная", "индукционная", "шоколадный","Пуку-кака","Многочлен","без скитовый","1х1 луз","анти-аим билдер","Дефолт","ну проебал ичо","ну без скита ичо","неверлуз маркет","бумер","сын","Кислотап","бодибилдер кислый","Зига"];
 let secondLetterMale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "асидтеч", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
 let secondLetterFemale = [".yaw", "cord", ".yaw", "99% OFF .cord", "99% OFF .yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", ".yaw", "пору.yaw", ".yaw", "асидтеч", ".yaw", ".yaw", ".yaw", "cord", "cord", "alpha", "alpha", "beta", "beta", "beta"];
-let uniqueNames = ["сын говна.yaw", "мамкуебал.yaw", "доширак", "печень соуфифа", "сломанные позвонки.nl", "ипотекa cord", "соуфиф пупс анти аим"];
+let uniqueNames = ["сын говна.yaw", "мамкуебал.yaw", "доширак", "печень соуфифа", "сломанные позвонки.nl", "ипотекa cord", "соуфиф пупс анти аим","Парашный"];
 
 let allItemsLenght = firstLetterMale.length + firstLetterFemale.length + uniqueNames.length;
 let maleChance = Math.floor(firstLetterMale.length / allItemsLenght * 100);
